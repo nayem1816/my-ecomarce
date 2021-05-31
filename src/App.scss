@@ -1,0 +1,38 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+
+$textWhite: #fff;
+$textBlack: #0000;
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-white{
+    color: $textWhite;
+}
+.text-black{
+    color: $textBlack;
+}
+.full-cart{
+    width: 80px;
+    height: 100px;
+    background-color: #ddd;
+    margin-top: 25%;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 750px) {
+    .full-cart{
+        margin-top: 35%;
+    }
+}
+@media screen and (max-width: 749px) and (min-width: 300px) {
+    .full-cart{
+        margin-top: 50%;
+    }
+}
