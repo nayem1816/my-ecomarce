@@ -17,8 +17,8 @@ const Footer = () => {
     { name: "Post5", link: "/Post5" },
   ];
   const ourAddress = [
-    { name: "Kishoreganj, Dhaka, Bangladesh", link: "/" },
-    { name: "SMR SAIMON", link: "/" },
+    { name: "Gazipur, Dhaka, Bangladesh", link: "/" },
+    { name: "Md Nayem Hossain", link: "/" },
   ];
   const Pages = [
     { name: "About", link: "/About" },
@@ -62,12 +62,6 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className="mt-5">
-              <h6>Call now</h6>
-              <button className="btn">+88 01757053084</button>
-              <h6>Email </h6>
-              <button className="btn">saimoncse333@gmail.com</button>
-            </div>
           </FooterCol>
         </div>
 
